@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marina Fleet</title>
+       <!-- favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <!-- googgle fonts link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstarp css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<!-- css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+   <header>
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+    <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="img/favicon.png" width="45" height="45" class="me-2">
+      <span>Marina Fleet</span>
+    </a>
+
+    <!-- 3 Line Toggle Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="fleet.html">Fleet</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item">
+          <a class="btn btn-warning ms-lg-3 mt-3 mt-lg-0" href="book.html">Book Now</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+</header>
+    <!-- booking btn -->
+    <section class="hero">
+      <div class="container">
+        <h1>Feedback Form</h1>
+        <h4>We value your feedback</h4>
+        <p>Your feedbeck help us to improve our service. Please let us know</p>
+        <p>about your experience with Marina Fleet</p>
+        
+      </div>
+    </section>
+
+<div class="feedback-container">
+    <h2>Feedback </h2>
+    
+
+    <form>
+
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label>Marine ID</label>
+            <input type="text" placeholder="Enter your Marine ID" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Rate Our Service</label>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating">
+                <label for="star5">★</label>
+
+                <input type="radio" id="star4" name="rating">
+                <label for="star4">★</label>
+
+                <input type="radio" id="star3" name="rating">
+                <label for="star3">★</label>
+
+                <input type="radio" id="star2" name="rating">
+                <label for="star2">★</label>
+
+                <input type="radio" id="star1" name="rating">
+                <label for="star1">★</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Your Feedback</label>
+            <textarea rows="4" placeholder="Write your feedback..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit </button>
+
+    </form>
+</div>
+
+  </body>
+</html>
